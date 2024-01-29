@@ -1,0 +1,22 @@
+nav {
+    background-color: #282c34;
+    padding: 10px 0;
+  }
+  
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+  
+  .nav-item {
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-item:hover {
+    color: #61dafb;
+  }

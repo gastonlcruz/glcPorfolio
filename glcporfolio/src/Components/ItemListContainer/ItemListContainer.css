@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+    margin: 0;
+
+}
+
+section{
+    height: 100vh;
+    padding: 10em;
+
+    h1{
+        font-size: 3em;
+    }
+    
+    p{
+        font-size: 1.5em;
+    }
+
+    a{
+        color: white;
+        font-weight: bold;
+    }
+
+    &:first-child{
+        background: rgb(31, 37, 243);
+        color: white;
+    }
+    &:last-child{
+        background: rgb(31, 37, 43);
+        color: white;
+    }
+
+
+}
+
+
